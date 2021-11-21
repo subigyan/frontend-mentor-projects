@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Outfit:wght@300;400;600&display=swap");
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* 
+:root {
+    soft-blue: hsl(215, 51%, 70%);
+ cyann: hsl(178, 100%, 50%);
+    - Very dark blue (main BG): hsl(217, 54%, 11%);
+- Very dark blue (card BG): hsl(216, 50%, 16%);
+- Very dark blue (line): hsl(215, 32%, 27%);
+- White: hsl(0, 0%, 100%); 
+}
+*/
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: hsl(217, 54%, 11%);
+    flex-direction: column;
+
+    font-family: "Outfit", sans-serif;
+}
+
+.main {
+    background-color: hsl(216, 50%, 16%);
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    padding: 28px 24px;
+    border-radius: 20px;
+    color: white;
+    justify-content: space-around;
+}
+
+.main .nft-img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.main .nft-name {
+    font-size: 22px;
+
+    margin: 20px 0px 10px;
+    font-weight: 600;
+    /* border: 1px solid wheat; */
+}
+
+.main .info {
+    margin: 10px 0px;
+    font-size: 18px;
+    color: hsl(215, 51%, 70%);
+    opacity: 0.8;
+    font-weight: 300;
+    /* border: 1px solid wheat; */
+}
+
+.nft-info {
+    /* border: 1px solid wheat; */
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    letter-spacing: 1px;
+}
+
+.nft-info .cost {
+    display: flex;
+    align-items: center;
+}
+
+.nft-info .cost h3 {
+    font-size: 15px;
+    color: hsl(178, 100%, 50%);
+    padding: 0 8px;
+}
+
+.nft-info .days {
+    display: flex;
+    align-items: center;
+}
+
+.nft-info .days h4 {
+    font-size: 15px;
+    color: hsl(215, 51%, 70%);
+    opacity: 0.8;
+    padding: 0 8px;
+}
+
+hr {
+    margin: 10px 0;
+    border: none;
+    border-top: 1px solid hsl(215, 32%, 27%);
+}
+
+.creator-info {
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+}
+
+.avatar {
+    width: 40px;
+}
+
+.creator-info p {
+    padding: 0 15px;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.creator-info p span {
+    color: hsl(215, 51%, 70%);
+    opacity: 0.8;
+}
